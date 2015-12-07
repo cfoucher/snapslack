@@ -1,0 +1,48 @@
+body{
+    background: #fffc00;
+}
+
+div.page {
+    background: white;
+    width: 80%;
+    margin: 30px auto;
+}
+
+#head {
+    box-shadow: 0px 24px 5px -24px black;
+    display: flex;
+}
+
+#logo {
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#screenshot{
+    width: 400px;
+    border: solid;
+    border-width: 1px;
+}
+
+div.page h1 {
+    background: white;
+    margin: 0;
+    padding: 10px 14px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 380%;
+}
+
+div.page div.info {
+    margin: 20px;
+    padding-top: 10px
+}
+
+div.page div.footer {
+    background: #eee;
+    color: #888;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-align: center;
+}
