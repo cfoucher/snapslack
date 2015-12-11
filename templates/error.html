@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <title>Snapslack</title>
+        <link rel="icon" type="image" href="{{ url_for('static', filename='favicon.ico') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div class="page">
+            <div id="head">
+                <a href="{{ url_for('landingPage') }}"><img id="logo" src="{{ url_for('static', filename='icon.png') }}" alt="Snapslack" height="80" width="80"></a>
+                <a id="navLink" href="{{ url_for('landingPage') }}"><h1>Snapslack</h1></a>
+            </div>
+            
+            <div class="info">
+                <b>Oops!!</b><br/>
+                <br>
+                Looks like something went wrong when trying to authenticate. Please try again later.<br/>
+                <br/>
+                Thanks
+            </div>
+            <div class="footer">
+                Conrad Foucher - 2015
+            </div>
+        </div>
+  </body>
+</html>
